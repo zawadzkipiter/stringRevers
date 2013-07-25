@@ -29,10 +29,19 @@ public class StingLoader {
 		tempString.reverse();
 		return tempString.toString();
 		
-
-
 	}
 
+	public static boolean isPalindorme(String loadedString){
+		
+		loadedString = loadedString.replaceAll("\\s", "");
+		StringBuilder tempString = new StringBuilder(loadedString);
+		tempString.reverse();
+		
+		if(loadedString.equals(tempString.toString()))
+		return true;
+		else return false;
+			
+	}
 
 	
 	
