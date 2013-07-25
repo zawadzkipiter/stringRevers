@@ -24,7 +24,7 @@ public class StingLoader {
 	}
 	
 	
-	public String reversString(){
+	public static String reversString(String loadedString){
 		StringBuilder tempString = new StringBuilder(loadedString);
 		tempString.reverse();
 		return tempString.toString();
@@ -32,6 +32,9 @@ public class StingLoader {
 
 
 	}
+
+
+	
 	
 }
 	
