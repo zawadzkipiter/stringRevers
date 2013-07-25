@@ -24,10 +24,10 @@ public class StingLoader {
 	}
 	
 	
-	public void reversString(){
+	public String reversString(){
 		StringBuilder tempString = new StringBuilder(loadedString);
 		tempString.reverse();
-		reversedString = tempString.toString();
+		return tempString.toString();
 		
 
 
